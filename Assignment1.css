@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+}
+.nav-div{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    background-color:black;
+    padding: 1.1rem 1rem;
+    align-items: center;
+    
+}
+.nav-name{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+.fb,.youtube,.twitter{
+    font-size: 2rem;
+    color: white;
+    padding-right:1.5rem ;
+
+}
+
+
+.fb:hover{
+    color:#1971c2 ;
+    transition: all 0.3s;
+}
+.youtube:hover{
+    color: red;
+    transition: all 0.3s;
+}
+.twitter:hover{
+    color: skyblue;
+    transition: all 0.3s;
+}
+
+.nav-item{
+    padding: 1.5rem;
+    text-decoration: none;
+    color:white ;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    
+}
+.nav-item:hover {
+    color:#20c997;
+
+}
+
+
+.hero-img{
+    width: 100%;
+    opacity: 1;
+    filter: blur(5px);
+    
+   
+}
+.hero-container{
+    position: relative;
+}
+.hero-txt{
+    position: absolute;
+    top: 25%;
+    right: 55%;
+    color: white;
+    font-size: 3.5rem;
+    align-items: center;
+}
+.hire-me{
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border:0.2rem solid #20c997 ;
+    border-radius: 1000px;
+    text-decoration: none;
+    color: #20c997;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.hire-me:hover{
+    background-color: #1aa179;
+    color:white;
+    transition: all 0.3s;
+    
+}
